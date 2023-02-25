@@ -42,7 +42,9 @@ pybind11_add_module(
         src/CxxWrapper.hpp
         src/CxxWrapper.cpp
 
-        src/llvm/ADT/ArrayRef.hpp
+        src/llvm/PassInfo.cpp
+        
+		src/llvm/ADT/ArrayRef.hpp
         src/llvm/ADT/Optional.hpp
         src/llvm/ADT/StringRef.hpp
         src/llvm/ADT/Triple.cpp
