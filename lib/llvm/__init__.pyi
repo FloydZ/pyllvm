@@ -76,6 +76,7 @@ from .Module import Module as Module
 from .OpInit import OpInit as OpInit
 from .OperandMatchResultTy import OperandMatchResultTy as OperandMatchResultTy
 from .PassInfo import PassInfo as PassInfo
+from .PassInfoMixin import PassInfoMixin as PassInfoMixin
 from .ParseInstructionInfo import ParseInstructionInfo as ParseInstructionInfo
 from .PatternsForOpcode import PatternsForOpcode as PatternsForOpcode
 from .RecTy import RecTy as RecTy

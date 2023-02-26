@@ -51,6 +51,8 @@ pybind11_add_module(
 
         src/llvm/IR/LLVMContext.cpp
         src/llvm/IR/Module.cpp
+        src/llvm/IR/PassManager.cpp
+        src/llvm/IR/Function.cpp
 
         src/llvm/MC/MCDisassembler/MCDisassembler.cpp
         src/llvm/MC/MCParser/MCAsmLexer.cpp
@@ -98,6 +100,7 @@ pybind11_add_module(
         src/llvm/TableGen/Parser.cpp
         src/llvm/TableGen/Record.cpp
 )
+
 target_include_directories(pyllvm PRIVATE ${LLVM_INCLUDE_DIRS})
 target_link_directories(pyllvm PRIVATE ${LLVM_LIBRARY_DIRS})
 
